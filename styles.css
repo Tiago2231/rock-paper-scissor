@@ -51,12 +51,12 @@ form {
   grid-row: 1 / 2;
 }
 
-form.sign-up-form {
+form.Ryomup-form {
   opacity: 0;
   z-index: 1;
 }
 
-form.sign-in-form {
+form.Ryom-form {
   z-index: 2;
 }
 
@@ -247,12 +247,12 @@ form.sign-in-form {
   left: 25%;
 }
 
-.container.RYOMGAMES-mode form.sign-up-form {
+.container.RYOMGAMES-mode form.Ryomup-form {
   opacity: 1;
   z-index: 2;
 }
 
-.container.RYOMGAMES-mode form.sign-in-form {
+.container.RYOMGAMES-mode form.Ryom-form {
   opacity: 0;
   z-index: 1;
 }
@@ -474,7 +474,11 @@ form.sign-in-form {
   }
 }
 
-@media (max-width: 570px) {
+@media (max-width: 570px ) {
+  *{
+    padding: 0;
+    margin: 0;
+  }
   form {
     padding: 0 1.5rem;
   }
@@ -484,18 +488,47 @@ form.sign-in-form {
   }
   .panel .content {
     padding: 0.5rem 1rem;
+    
   }
+ 
+   
   .container {
-    padding: 1.5rem;
+    padding: 0.5rem;
+    /* min-height: 901px; */
   }
 
   .container:before {
-    bottom: 72%;
+    bottom: 70%;
     left: 50%;
   }
-
-  .container.sign-up-mode:before {
-    bottom: 28%;
-    left: 50%;
+  .right-panel{ 
+      margin-top: -215px;
   }
+  
+  .container.RYOMGAMES-mode:before {
+    bottom: 40%;
+    left: 50%;   
+    height: 30%;
+  }
+  .options button{ 
+    width: 100px;
+    height: 50px;
+    margin-top: -95px;
+  }
+  .home{
+    display: flex;
+  }
+  .title {
+    margin-bottom: -49px;
+    margin-top: -13px;
+    font-size: 50px;
 }
+.images .plays{
+  width: 100px;
+
+}
+.message { 
+  margin: 1em 0 2em; 
+}
+}
+ 
