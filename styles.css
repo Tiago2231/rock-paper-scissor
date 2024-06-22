@@ -514,14 +514,14 @@ form.Ryom-form {
   .options button{ 
     width: 100px;
     height: 50px;
-    margin-top: -95px;
+    margin-top: -90px;
   }
   .home{
     display: flex;
   }
   .title {
     margin-bottom: -49px;
-    margin-top: -13px;
+    margin-top: -113px;
     font-size: 50px;
 }
 .images .plays{
@@ -529,7 +529,10 @@ form.Ryom-form {
 
 }
 .message { 
-  margin: 1em 0 2em; 
+  margin-top: -4px;
+}
+.points{
+  margin-top: -4px;
 }
 }
  
